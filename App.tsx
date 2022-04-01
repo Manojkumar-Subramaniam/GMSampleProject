@@ -12,11 +12,6 @@ import React from 'react';
 import AppContainer from './src/Navigation/Router';
 
 
-
-const App = () => {
-  return (
-    <AppContainer ></AppContainer>
-  );
-};
+const App = () => <AppContainer />
 
 export default App;

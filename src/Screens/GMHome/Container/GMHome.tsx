@@ -1,16 +1,14 @@
 import React from 'react'
-import { View, Text, SafeAreaView, ScrollView } from 'react-native'
+import { View, Text, SafeAreaView } from 'react-native'
+import CommitSummary from '../Component/CommitSummary'
+import styles from '../Styles/GMHomeStyles'
 
 const GMHome: React.FC = () => {
     return (
-        <SafeAreaView>
-            <ScrollView>
-                <View>
-                    <Text>
-                        Hello world
-                    </Text>
-                </View>
-            </ScrollView>
+        <SafeAreaView >
+            <View style={styles.rootView}>
+                <CommitSummary />
+            </View>
         </SafeAreaView>
     )
 }
