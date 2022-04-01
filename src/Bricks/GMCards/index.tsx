@@ -1,17 +1,17 @@
 import React from 'react'
-import { View, ViewProps } from 'react-native'
+import { TouchableOpacity, ViewProps } from 'react-native'
 import styles from './GMCardsStyles'
 
 interface Props {
-    children?: React.ReactNode
+    onPress: () => void
     customStyle?: ViewProps
 }
 
-const GMCards: React.FC<Props> = ({ children, customStyle }) => {
+const GMCards: React.FC<Props> = (props) => {
     return (
-        <View style={[styles.rootView, customStyle]}>
-            {children}
-        </View>
+        <TouchableOpacity onPress={props.onPress} style={[styles.rootView, props.customStyle]}>
+            {props.children}
+        </TouchableOpacity>
     )
 }
 

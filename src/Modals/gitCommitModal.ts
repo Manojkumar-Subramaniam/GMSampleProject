@@ -7,13 +7,13 @@ export default interface gitCommitApiResponseModal {
   commit: commitModal;
 }
 
-export interface commitModal {
+interface commitModal {
   author: commitItemModal;
   message: string;
 }
 
-export interface commitItemModal {
+interface commitItemModal {
   name: string;
   email: string;
-  date: Date;
+  date: string;
 }

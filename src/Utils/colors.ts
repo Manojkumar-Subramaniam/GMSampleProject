@@ -1,8 +1,9 @@
 const colors = {
-  GMCARD_PRIMARY: '#FFFF',
-  GMCARD_SHADOW: '#0000',
-  WHITE: '#FFFF',
-  BLACK: '#0000',
+  GMCARD_PRIMARY: '#FFFFFF',
+  GMCARD_SHADOW: '#000000',
+  WHITE: '#FFFFff',
+  BLACK: '#000000',
+  HIGHLIGHTED: '#34a8eb',
 };
 
 export default colors;
