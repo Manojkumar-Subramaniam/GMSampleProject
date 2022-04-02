@@ -33,7 +33,7 @@ const CommitItem: React.FC<commitItemProps> = (props) => {
         <Text numberOfLines={1} style={Fonts.fontNormalBlack}>
             <Text style={Fonts.fontNormalHighlighted} >{props.field}</Text>
             <Text > {Strings.COLON}</Text>
-            <Text ellipsizeMode={props.isLeftEllipse ? 'head' : 'tail'}>{props.value}</Text>
+            <Text >{props.value}</Text>
         </Text>
     )
 }
