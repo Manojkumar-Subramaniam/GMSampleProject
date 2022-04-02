@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
     zIndex: 1,
     elevation: 1,
     shadowRadius: 5,
+    margin: 5,
     shadowOpacity: 0.25,
     shadowOffset: {
       width: 0,
