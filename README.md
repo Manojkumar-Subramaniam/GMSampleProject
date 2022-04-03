@@ -1,2 +1,2 @@
 # GMSampleProject
-sample project for GM
+Sample project for GM
