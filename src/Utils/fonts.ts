@@ -12,6 +12,11 @@ const fonts = StyleSheet.create({
     fontWeight: 'normal',
     color: colors.HIGHLIGHTED,
   },
+  fontNormalWhite: {
+    fontSize: 16,
+    fontWeight: 'normal',
+    color: colors.WHITE,
+  },
 });
 
 export default fonts;

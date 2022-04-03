@@ -1,6 +1,6 @@
 import gitCommitApiResponseModal from './src/Modals/gitCommitModal';
 
-export const gitCommitAPI: gitCommitApiResponseModal[] = [
+const gitCommitAPI: gitCommitApiResponseModal[] = [
   {
     sha: 'e29a7e3074e477d9567aa0953f5c6171ba805e1c',
     commit: {
@@ -24,3 +24,5 @@ export const gitCommitAPI: gitCommitApiResponseModal[] = [
     },
   },
 ];
+
+export default gitCommitAPI;

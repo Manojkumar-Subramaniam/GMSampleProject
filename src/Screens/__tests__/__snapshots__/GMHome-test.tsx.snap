@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GM Home Snapshop GM Home Loader 1`] = `
+<ForwardRef(SafeAreaView)
+  style={Object {}}
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 16,
+        "paddingTop": 30,
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#34a8eb",
+          "borderRadius": 20,
+          "justifyContent": "center",
+          "textAlign": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFff",
+              "margin": 16,
+            },
+            Object {
+              "color": "#FFFFff",
+              "fontSize": 16,
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        No Data Found. Tap to retry
+      </Text>
+    </TouchableOpacity>
+  </View>
+</ForwardRef(SafeAreaView)>
+`;
+
+exports[`GM Home Snapshop GM Home on failure API 1`] = `
+<ForwardRef(SafeAreaView)
+  style={Object {}}
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 16,
+        "paddingTop": 30,
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#34a8eb",
+          "borderRadius": 20,
+          "justifyContent": "center",
+          "textAlign": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFff",
+              "margin": 16,
+            },
+            Object {
+              "color": "#FFFFff",
+              "fontSize": 16,
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        No Data Found. Tap to retry
+      </Text>
+    </TouchableOpacity>
+  </View>
+</ForwardRef(SafeAreaView)>
+`;
+
+exports[`GM Home Snapshop GM Home with data 1`] = `
+<ForwardRef(SafeAreaView)
+  style={Object {}}
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 16,
+        "paddingTop": 30,
+      }
+    }
+  >
+    <FlatList
+      ItemSeparatorComponent={[Function]}
+      data={
+        Array [
+          Object {
+            "commit": Object {
+              "author": Object {
+                "date": "2022-03-31T21:53:32Z",
+                "email": "manojkumarsubramaniam@Manojkumars-MacBook-Pro.local",
+                "name": "Manojkumar Subramaniam",
+              },
+              "message": "created RN Sample project",
+            },
+            "sha": "e29a7e3074e477d9567aa0953f5c6171ba805e1c",
+          },
+          Object {
+            "commit": Object {
+              "author": Object {
+                "date": "2022-03-31T21:53:32Z",
+                "email": "manojkumarsubramaniam@Manojkumars-MacBook-Pro.local",
+                "name": "Manojkumar Subramaniam",
+              },
+              "message": " 1created RN Sample project",
+            },
+            "sha": "e29a7e3074e477d9567aa0953f5c6171ba805e1c",
+          },
+        ]
+      }
+      inverted={false}
+      renderItem={[Function]}
+      showsVerticalScrollIndicator={false}
+    />
+  </View>
+</ForwardRef(SafeAreaView)>
+`;

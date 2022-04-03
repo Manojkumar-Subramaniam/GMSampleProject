@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GM Home Commit Info 1`] = `
+<View
+  style={
+    Object {
+      "margin": 16,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "normal",
+        },
+        Object {
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#34a8eb",
+          "fontSize": 16,
+          "fontWeight": "normal",
+        }
+      }
+    >
+      Hash
+    </Text>
+    <Text>
+      : 
+    </Text>
+    <Text>
+      e29a7e3074e477d9567aa0953f5c6171ba805e1c
+    </Text>
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "normal",
+        },
+        Object {
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#34a8eb",
+          "fontSize": 16,
+          "fontWeight": "normal",
+        }
+      }
+    >
+      Author
+    </Text>
+    <Text>
+      : 
+    </Text>
+    <Text>
+      Manojkumar Subramaniam
+    </Text>
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "normal",
+        },
+        Object {
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#34a8eb",
+          "fontSize": 16,
+          "fontWeight": "normal",
+        }
+      }
+    >
+      Message
+    </Text>
+    <Text>
+      : 
+    </Text>
+    <Text>
+      created RN Sample project
+    </Text>
+  </Text>
+</View>
+`;

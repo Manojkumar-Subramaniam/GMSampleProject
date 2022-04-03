@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GMCard Tests GMCard Snapshot 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 10,
+      "elevation": 1,
+      "margin": 5,
+      "opacity": 1,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 0,
+        "width": 0,
+      },
+      "shadowOpacity": 0.25,
+      "shadowRadius": 5,
+      "zIndex": 1,
+    }
+  }
+/>
+`;
